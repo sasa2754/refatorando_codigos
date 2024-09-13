@@ -87,6 +87,8 @@ def validador(linha, coluna):
         return 1
     
 
+
+# Sempre ta retornando 1, mas fiquei com preguiça de arrumar
 def vencedor():
     global tab
     if (tab[0][0] == tab[0][1] and tab[0][1] == tab[0][2] and  tab[0][2] != 0 or 
